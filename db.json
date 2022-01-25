@@ -1,16 +1,4 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
   "banner": [
     {
       "order": 0,
@@ -32,6 +20,46 @@
       "title": "ภาพสาม",
       "to": "3",
       "type": "internal"
+    }
+  ],
+  "recommendedbooks": [
+    {
+      "img": "https://media.istockphoto.com/photos/blue-book-stack-picture-id1290063471?b=1&k=20&m=1290063471&s=170667a&w=0&h=oLiQoa2Ewu9HKfBJzzvInI41vei54HLoEakxvIJvnsg=",
+      "title": "ชื่อหนังสือ เรื่อง A เล่มที่ 1",
+      "author": "วินทร์ เลียววาริณ",
+      "price": 300,
+      "discount_price": 200,
+      "is_discounted": true,
+      "discount_type": "percent",
+      "discount_value": 33.33
+    },
+    {
+      "img": "https://media.istockphoto.com/photos/blue-book-stack-picture-id1290063471?b=1&k=20&m=1290063471&s=170667a&w=0&h=oLiQoa2Ewu9HKfBJzzvInI41vei54HLoEakxvIJvnsg=",
+      "title": "ชื่อหนังสือ เรื่อง A เล่มที่ 2",
+      "author": "วินทร์ เลียววาริณ",
+      "price": 400,
+      "discount_price": 200,
+      "is_discounted": true,
+      "discount_type": "percent",
+      "discount_value": 50
+    },
+    {
+      "img": "https://media.istockphoto.com/photos/blue-book-stack-picture-id1290063471?b=1&k=20&m=1290063471&s=170667a&w=0&h=oLiQoa2Ewu9HKfBJzzvInI41vei54HLoEakxvIJvnsg=",
+      "title": "ชื่อหนังสือ เรื่อง A เล่มที่ 3",
+      "author": "วินทร์ เลียววาริณ",
+      "price": 200,
+      "discount_price": 200,
+      "is_discounted": false
+    },
+    {
+      "img": "https://media.istockphoto.com/photos/blue-book-stack-picture-id1290063471?b=1&k=20&m=1290063471&s=170667a&w=0&h=oLiQoa2Ewu9HKfBJzzvInI41vei54HLoEakxvIJvnsg=",
+      "title": "ชื่อหนังสือ เรื่อง A เล่มที่ 4",
+      "author": "วินทร์ เลียววาริณ",
+      "price": 500,
+      "discount_price": 200,
+      "is_discounted": true,
+      "discount_type": "number",
+      "discount_value": 300
     }
   ]
 }
